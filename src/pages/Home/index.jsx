@@ -7,6 +7,7 @@ import { Note } from '../../components/Note'
 
 import { Section} from '../../components/Section'
 import { ButtonText} from '../../components/ButtonText'
+import { Link } from 'react-router-dom'
 
 export function Home(){
     return(
@@ -39,7 +40,7 @@ export function Home(){
                 </Section>
             </Content>
 
-            <NewNote>
+            <NewNote to="/new">
                 <FiPlus/>
                 Criar nota
             </NewNote>
