@@ -17,6 +17,8 @@ export const Container = styled.div `
 
     .tags {
         display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
         justify-content: space-between;
     }
 `
@@ -32,7 +34,7 @@ export const Form = styled.form `
 
         margin-bottom: 36px;
 
-        a {
+        button {
             font-size: 20px;
             color: ${({theme}) => theme.COLORS.GRAY_100};
         }
