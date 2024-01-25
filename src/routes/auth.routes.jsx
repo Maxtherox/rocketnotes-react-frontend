@@ -1,5 +1,5 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import { SignIn } from "../pages/SignIn";
+import { SignIn } from "../pages/Signin";
 import { SignUp } from "../pages/SignUp";
 
 
